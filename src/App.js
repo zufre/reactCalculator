@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css';
 
 export default class App extends React.Component {
@@ -52,7 +51,7 @@ export default class App extends React.Component {
           this.setState({decimalFlag:false})
         break
         case buttonName === "=":
-          currentNumber = eval(currentNumber)
+          currentNumber = eval(currentNumber).toFixed(8).replace(/\.?0+$/, '')
           operatorFlag = false
           this.setState({decimalFlag:true})
         break
@@ -114,4 +113,3 @@ class Button extends React.Component{
     )
   }
 }
-
