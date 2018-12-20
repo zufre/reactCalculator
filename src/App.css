@@ -5,8 +5,7 @@ body {
   margin: 40px auto 0;
   height: 50%;
   width: 30%;
-  min-width: 300px;
-  min-height: 400px;
+  
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
