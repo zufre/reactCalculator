@@ -52,7 +52,7 @@ export default class App extends React.Component {
           this.setState({decimalFlag:false})
         break
         case buttonName === "=":
-          currentNumber = eval(currentNumber)
+          currentNumber = eval(currentNumber).toFixed(8).replace(/\.?0+$/, '')
           operatorFlag = false
           this.setState({decimalFlag:true})
         break
