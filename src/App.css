@@ -5,7 +5,7 @@ body {
   margin: 40px auto 0;
   height: 50%;
   width: 30%;
-  min-width: 500px;
+  min-width: 300px;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -22,7 +22,7 @@ body {
   background-color: white;
   width: 100%;
   display: flex;
-  overflow:hidden;
+  overflow: hidden;
   justify-content: flex-end;
   align-items: center;
   font-size: 50px;
