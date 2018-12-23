@@ -4,7 +4,7 @@ export default class App extends React.Component {
   constructor(props){
     super(props)
     this.state={
-      currentNumber: "0",
+      currentNumber: "1",
       operatorFlag:false,
       decimalFlag:false
     }
