@@ -21,7 +21,8 @@ body {
   outline: none;
 }
 .button:active {
-  font-size: 30px;
+  font-size: 37px;
+  border: solid 3px black;
 }
 #display {
   background-color: white;
